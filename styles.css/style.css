@@ -1,0 +1,89 @@
+
+
+
+.form-container {
+    margin: 20px;
+    padding: 20px;
+    background-color: #f2f2f2;
+    border-radius: 5px;
+   
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    
+  }
+  
+  .form-group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 30px;
+    
+  }
+
+  input {
+    height: 40px;
+  }
+  
+  label {
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+
+  
+  select {
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    background-color: #4CAF50;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #3e3f8e;
+  }
+
+  .table-container {
+    width: 100%;
+    margin: 20px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    overflow: auto;
+  }
+  
+  #product-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  #product-table th,
+  #product-table td {
+    padding: 10px;
+    text-align: center;
+  }
+  
+  #product-table th {
+    background-color: #eee;
+    border-bottom: 2px solid #ccc;
+  }
+  
+  #product-table tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  #product-table tbody tr:hover {
+    background-color: #ddd;
+  }
+  
+ 
+  
